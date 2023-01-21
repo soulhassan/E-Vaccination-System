@@ -16,4 +16,6 @@
     <string name="register">Register</string>
     <string name="your_name">Your_Name</string>
     <string name="Eemail">Email</string>
+    <string name="loginn">Login</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
 </resources>
