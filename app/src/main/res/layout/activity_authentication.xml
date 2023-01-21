@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk_design"
+    tools:context=".authentication"
+
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+    android:id="@+id/splashIcon"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/charity"
+    app:tint="@color/white"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/tv_authentication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/authentication_process"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/btn_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_authentication"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:backgroundTint="#00E676"
+        android:text="@string/user"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/btn_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00E676"
+        android:text="@string/team"
+        android:layout_below="@+id/btn_user"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="24sp"
+
+        />
+    <Button
+        android:id="@+id/btn_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00E676"
+        android:text="@string/admin"
+        android:layout_below="@+id/btn_team"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="24sp"
+
+        />
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

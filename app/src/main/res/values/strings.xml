@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E Vaccination System</string>
+    <string name="user">User</string>
+    <string name="authentication_process">Authentication Process</string>
+    <string name="team">Team</string>
+    <string name="admin">Admin</string>
+    <string name="todo">TODO</string>
+    <string name="login">login</string>
+    <string name="password">Password</string>
+    <string name="t">TODO</string>
+    <string name="image" />
+    <string name="register_here">Register Here</string>
+    <string name="email">Email</string>
+    <string name="Login">Login</string>
+    <string name="logo">TODO</string>
+    <string name="register">Register</string>
+    <string name="your_name">Your_Name</string>
+    <string name="Eemail">Email</string>
+</resources>
