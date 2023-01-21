@@ -18,4 +18,5 @@
     <string name="Eemail">Email</string>
     <string name="loginn">Login</string>
     <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="signup">Signup</string>
 </resources>
